@@ -1,0 +1,78 @@
+.header {
+  height: 40vh;
+  background-image: url("https://aws.traveler.es/prod/designs/v1/assets/940x628/138674.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botonCarrito {
+  background-color: #505357;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  height: 6vh;
+}
+
+.modalCarrito {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80vw;
+  max-width: 36vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  left: 50vw;
+  top: 5vh;
+  text-align: center;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.botones {
+  background-color: #505357;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+}
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.h5 {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.botonCarrito {
+  background-color: #858688;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
